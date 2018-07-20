@@ -1,0 +1,32 @@
+#life_help{
+  text-align: center;
+  font-size: 50px
+  
+}
+#Questions{font-size:30px}
+#pic{
+  float: right;
+  width: 700px
+}
+
+body {
+    background-image: url("http://dianepayne.typepad.com/.a/6a0115708b17e7970b017c381bf890970b-pi"); 
+  background-repeat:no repeat;
+  background-size: 80%;
+  font-family: 'Farsan';
+  
+     
+}
+
+#life_help1{
+  text-align: center;
+}
+
+#tips{
+  font-family: 'Farsan';
+  font-size: 28px;
+}
+
+h1{
+  font-family: 'Fredoka One', cursive;
+}

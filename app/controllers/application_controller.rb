@@ -7,14 +7,20 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
 
+
   get '/' do
     return erb :index
   end
   
-  get '/' do
-    @first_response = params[:response1]
-    @second_response = params[:response2]
-    @result = kwiz_return(@first_response, @second_response)
+  post '/' do
+    @answer1 = params[:q1]
+    @answer2 = params[:q2]
+    @results = life_help(@answer1, @answer2)
     return erb :results
   end
+  
+  post '/all' do
+    return erb :all
+  end 
+  
 end
